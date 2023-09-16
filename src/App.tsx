@@ -34,6 +34,8 @@ function App() {
 		console.log(sortedData);
 
 		//  @TODO: Do somwething aboout the type of "repo"
+		/* eslint-disable */
+		// @ts-ignore
 		const repositories = sortedData.splice(0, 10).map((repo) => ({
 			name: repo.name,
 			description: repo.description,
